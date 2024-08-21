@@ -1,14 +1,14 @@
-.item {
+.item1 {
   position: relative;
   width: calc(100vw / 6);
   height: 280px;
 }
 
-.image {
+.image1 {
   background-size: cover;
 }
 
-.overlay {
+.overlay1 {
   position: absolute;
   top: 10%;
   bottom: 10%;
@@ -20,12 +20,12 @@
   transition: all ease-in 0.3s;
 }
 
-.item:hover .overlay {
+.item1:hover .overlay1 {
   transform: scale(1.1);
   cursor: pointer;
 }
 
-.text {
+.text1 {
   color: white;
   font-size: 20px;
 }
